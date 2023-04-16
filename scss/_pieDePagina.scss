@@ -1,0 +1,22 @@
+.pieDePagina {
+    display: flex;
+    margin-top: 40px;
+    background-color: $backgroundNavFooter;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .imgDePie {
+    display: flex;
+    height: 40px;
+    width: auto;
+  }
+  
+  .imgYoutube {
+    height: 60px;
+    width: auto;
+  }
+  

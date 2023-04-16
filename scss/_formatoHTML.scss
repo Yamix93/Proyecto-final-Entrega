@@ -1,0 +1,16 @@
+$colorAmarilloTexto:#E5F876;
+$backgroundNavFooter:#858585;
+
+body {
+    background-color: black !important;
+    font-family: "Source Serif Pro", serif;
+    margin: 0px;
+  }
+
+@media (max-width: 390px) {
+    .formatoLi {
+      display: block;
+      margin: 50px 0px;
+      line-height: 30px;
+    }
+}

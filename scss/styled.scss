@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Source+Serif+Pro:wght@300 & display=swap");
+@import'formatoHTML';
+@import'menu';
+@import'pieDePagina';
+.aTitulo {
+  text-decoration: none;
+}
+
+.titulo {
+  color: $colorAmarilloTexto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.estiloTextoIndex {
+  border-style: solid;
+  color: $colorAmarilloTexto;
+  justify-content: center;
+}
+
+.colorFormaParrafo {
+  text-align: center;
+  color: $colorAmarilloTexto;
+  width: 100%;
+  padding: 5px;
+}
+
+.imgEstadistica {
+  border: solid $colorAmarilloTexto;
+  border-radius: 8px;
+  height: 280px;
+  width: 320px;
+}
+
+.imgPocho {
+  border: solid $colorAmarilloTexto;
+  border-radius: 8px;
+  height: 280px;
+  width: 320px;
+}
+
+.contenedorImgTituloEstadistica {
+  text-align: center;
+}
+
+.itemsEstadistica {
+  padding-left: 0px;
+}
+
+.TituloEstadistica {
+  color: $colorAmarilloTexto;
+}
+
+.contenedorDesafio {
+  width: auto;
+  color: $colorAmarilloTexto;
+}
+
+.contenedorImgDesafio {
+  margin: 40px 0px 20px 0px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgDesafio {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 4px;
+  color: $colorAmarilloTexto;
+}
+
+.textoFinal {
+  display: flex;
+  color: $colorAmarilloTexto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: larger;
+}
+
+.contenedorVdDesafio {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-style: solid;
+  color: black;
+}
+
+.videoDesafio {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 4px;
+  color: $colorAmarilloTexto;
+}
+
+.formulario {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formatoFormulario {
+  width: 400px;
+  padding: 25px;
+}
+
+.formatoFormulario h4 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.controls {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.textBox{
+width: 100%;
+height: 80px;
+border-radius: 4px;
+}
+
+.boton {
+  display: flex;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+#backGroundImg {
+  background-image: url("../img/fondoContratacion.jpg");
+  width: 800px;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+@media (max-width: 390px) {
+
+  .contenedorParrafo {
+    padding: 10px;
+    height: unset;
+    width: unset;
+    text-align: center;
+    color: $colorAmarilloTexto;
+    border-style: solid;
+    margin: unset;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .contenedorJugadoresYTitulos {
+    flex-direction: column;
+  }
+  .imgDesafio {
+    width: inherit;
+  }
+}
+
+/*# sourceMappingURL=styled.scss.map */

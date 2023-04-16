@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2? family= Source+Serif+Pro:wght@300 & display=swap");
+body {
+  background-color: black !important;
+  font-family: "Source Serif Pro", serif;
+  margin: 0px;
+}
+
+@media (max-width: 390px) {
+  .formatoLi {
+    display: block;
+    margin: 50px 0px;
+    line-height: 30px;
+  }
+}
+.linksDeNavegacion {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  background-color: #858585;
+}
+
+.estiloMenu {
+  color: #E5F876;
+  cursor: pointer !important;
+  display: none;
+}
+
+.ubicacionLi {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  padding: 0px;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.navegacion {
+  text-decoration: none;
+  color: #E5F876;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.formatoLi {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.formatoLi:hover {
+  background-color: #2a2a2a;
+  transition: 0.2s;
+}
+.formatoLi:hover a {
+  color: #E5F876;
+}
+
+#menu {
+  display: none;
+}
+
+.menuMobile {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  label {
+    position: fixed;
+    font-size: 2rem;
+    color: white;
+    z-index: 10;
+    top: 0;
+    margin-left: 1rem;
+  }
+
+  input {
+    display: none;
+  }
+
+  .hamburguesa {
+    border-radius: 4px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .menuBoton {
+    background-color: #858585;
+    color: #E5F876;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #858585;
+    font-size: xx-large;
+  }
+
+  .linksDeNavegacion {
+    width: 0px;
+    padding: 0px;
+  }
+  .linksDeNavegacion .ubicacionLi {
+    display: none;
+  }
+
+  .menuMobile {
+    display: block;
+  }
+
+  input:checked ~ .linksDeNavegacion {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 120px;
+    border-radius: 0px;
+    transition: 0.3s width;
+    font-size: 20px;
+  }
+  input:checked ~ .linksDeNavegacion .ubicacionLi {
+    flex-direction: column;
+    justify-content: unset;
+    display: block;
+    margin-top: 4rem;
+  }
+  input:checked ~ .linksDeNavegacion .ubicacionLi .formatoLi {
+    margin: 10px 0px 10px 0px;
+  }
+}
+.pieDePagina {
+  display: flex;
+  margin-top: 40px;
+  background-color: #858585;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+}
+
+.imgDePie {
+  display: flex;
+  height: 40px;
+  width: auto;
+}
+
+.imgYoutube {
+  height: 60px;
+  width: auto;
+}
+
+.aTitulo {
+  text-decoration: none;
+}
+
+.titulo {
+  color: #E5F876;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.estiloTextoIndex {
+  border-style: solid;
+  color: #E5F876;
+  justify-content: center;
+}
+
+.colorFormaParrafo {
+  text-align: center;
+  color: #E5F876;
+  width: 100%;
+  padding: 5px;
+}
+
+.imgEstadistica {
+  border: solid #E5F876;
+  border-radius: 8px;
+  height: 280px;
+  width: 320px;
+}
+
+.imgPocho {
+  border: solid #E5F876;
+  border-radius: 8px;
+  height: 280px;
+  width: 320px;
+}
+
+.contenedorImgTituloEstadistica {
+  text-align: center;
+}
+
+.itemsEstadistica {
+  padding-left: 0px;
+}
+
+.TituloEstadistica {
+  color: #E5F876;
+}
+
+.contenedorDesafio {
+  width: auto;
+  color: #E5F876;
+}
+
+.contenedorImgDesafio {
+  margin: 40px 0px 20px 0px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgDesafio {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 4px;
+  color: #E5F876;
+}
+
+.textoFinal {
+  display: flex;
+  color: #E5F876;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: larger;
+}
+
+.contenedorVdDesafio {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-style: solid;
+  color: black;
+}
+
+.videoDesafio {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 4px;
+  color: #E5F876;
+}
+
+.formulario {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formatoFormulario {
+  width: 400px;
+  padding: 25px;
+}
+
+.formatoFormulario h4 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.controls {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.textBox {
+  width: 100%;
+  height: 80px;
+  border-radius: 4px;
+}
+
+.boton {
+  display: flex;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+#backGroundImg {
+  background-image: url("../img/fondoContratacion.jpg");
+  width: 800px;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+@media (max-width: 390px) {
+  .contenedorParrafo {
+    padding: 10px;
+    height: unset;
+    width: unset;
+    text-align: center;
+    color: #E5F876;
+    border-style: solid;
+    margin: unset;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1110px) {
+  .contenedorJugadoresYTitulos {
+    flex-direction: column;
+  }
+
+  .imgDesafio {
+    width: inherit;
+  }
+}
+/*# sourceMappingURL=styled.scss.map */
+
+/*# sourceMappingURL=styled.css.map */
